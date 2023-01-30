@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connor Skudlarek's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Add a landing page, or large banner section-->
+    <div id="landing" class="container landing"><p></p>
+    <p></p></div>
+    <!--
+        Add an about me, with professional profile picture 
+        include brief profile information, specifically education-level, MERN stack,
+        and both a LinkedIn and GitHub icon linking to profiles. 
+    -->
+    <div id="about-me" class="container about-me">
+        <div class="profile">
+            <img src="" alt="">
+            <p></p>
+        </div>
+        <div class="skills">
+            <div class="left-skills"></div>
+            <div class="right-skills"></div>
+        </div>
+    </div>
+    <div id="projects" class="container projects">
+        <div class="project-card">
+            <div class="skill-icon"></div>
+        </div>
+        
+    </div>
+    <div id="contact-me" class="container contact-me">
+        <p>If you think my skills could be beneficial to your company, let's chat.
+            <legend>Contact me</legend>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/connor-skudlarek/">LinkedIn</a></li>
+                    <li>Phone: 541-591-2393</li>
+                    <li><a href="mailto:connor.skudlarek@gmail.com">Email:</a> connor.skudlarek@gmail.com</li>
+                </ul>
+        </p>
+        <br>
+        <hr>
+        <p>Alternatively, you can submit this contact form and I will get back to you.</p>
+        <form id="contact-form">
+            <label>Full Name:</label>
+            <input type="text" id="full-name" required>
+            <br>
+            <label>Email:</label>
+            <input type="email" id="email" required>
+            <br>
+            <label>Reason for Contact:</label>
+            <textarea id="reason" rows="4" cols="50" required></textarea>
+            <br>
+            <button type="submit" onclick="submitForm(event)">Submit</button>
+        </form>
+    </div>
+    <br>
+    <hr>
+    <div id="copyright" class="container copyright">
+        <p></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
