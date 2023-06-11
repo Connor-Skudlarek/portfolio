@@ -1,4 +1,5 @@
 import './App.css';
+import Navbar from './components/Navbar'
 import Landing from './components/Landing'
 import Skills from './components/Skills';
 import Experience from './components/Experience';
@@ -8,6 +9,7 @@ function App() {
   
   return (
     <div className="App">
+      <Navbar />
       <Landing />
       <Skills />
       <Experience />
