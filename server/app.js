@@ -4,7 +4,6 @@ const path = require("path");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 const mongoose = require("mongoose");
-const Contact = require("./models/Contact");
 
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
@@ -33,18 +32,6 @@ db.once("open", () => {
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 app.use("/api/contact", contactRouter);
-
-// app.post("/", async function (req, res, next) {
-//     const { name, email, message } = req.body
-//     const newContact = new Contact({
-//           name,
-//           email,
-//           message,
-//     })
-//     await newContact.save();
-
-//     res.sendFile(path.join(__dirname, "..", "client", "build", "index.html"));
-// });
 
 app.listen(80, () => console.log("App listening on 80"));
 
