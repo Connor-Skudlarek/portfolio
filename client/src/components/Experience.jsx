@@ -1,3 +1,5 @@
+import '../styles/Experience.css'
+
 function Experience(){
     return (
         <div>

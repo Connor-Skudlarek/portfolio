@@ -1,6 +1,8 @@
+import '../styles/ContactMe.css'
 import React, { useState } from "react";
 import axios from "axios";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function ContactMe() {
   const [name, setName] = useState("");
@@ -19,6 +21,7 @@ function ContactMe() {
         setName("");
         setEmail("");
         setMessage("");
+        toast.success("Successfully submitted!", { autoClose: 3000 })
       }
     } catch (err) {
       console.log(err);
@@ -27,6 +30,7 @@ function ContactMe() {
 
   return (
     <div>
+      <ToastContainer />
       <form onSubmit={handleSubmit}>
         <fieldset>
           <legend>Contact me</legend>
