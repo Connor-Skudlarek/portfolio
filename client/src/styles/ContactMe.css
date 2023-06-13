@@ -1,0 +1,42 @@
+.ContactMe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ContactMe-form fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 10px;
+}
+
+.ContactMe-input {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.ContactMe-input label {
+  text-align: left;
+  width: 50px;
+}
+
+.ContactMe-input input {
+  width: 100%;
+  max-width: 250px;
+}
+
+.ContactMe-textarea-label {
+  display: block;
+  width: 200px;
+}
+
+.ContactMe-form textarea {
+  height: auto;
+}
+
+.ContactMe-button {
+  padding: 10px;
+}
