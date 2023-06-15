@@ -36,8 +36,9 @@ function Landing() {
         </div>
         <div class="Landing-about-me">
           <h2 class="Landing-short-about-me">
-            Full-stack web developer, skilled at using the MERN stack to create
-            web apps that solve your business' needs.
+            Hello there! My name is Connor Skudlarek, and I'm a full-stack web
+            developer—skilled at using the MERN stack to create web apps that
+            solve your business' needs.
           </h2>
           <hr class="Landing-about-me-break" />
           <p class="Landing-long-about-me">
@@ -47,7 +48,8 @@ function Landing() {
             <br />
             <br />
             Whether it's front end, back end, or a bit of both—I can help you
-            take your ideas from paper to production.
+            take your ideas from paper to production.{" "}
+            <strong><a href="#ContactMe">Let's talk!</a></strong>
           </p>
         </div>
       </div>
