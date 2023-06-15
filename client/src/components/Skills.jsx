@@ -8,7 +8,7 @@ function Skills() {
         <p class="Skills-skill">HTML</p>
       </div>
       <div class="Skills-card">
-        <img class="Skills-logo" al="CSS logo"></img>
+        <img class="Skills-logo" alt="CSS logo"></img>
         <p class="Skills-skill">CSS</p>
       </div>
       <div class="Skills-card">
