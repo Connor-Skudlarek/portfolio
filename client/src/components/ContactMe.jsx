@@ -29,48 +29,46 @@ function ContactMe() {
   };
 
   return (
-    <div>
+    <div class="form-container" id="ContactMe">
       <ToastContainer />
-      <form class="ContactMe-form" onSubmit={handleSubmit}>
-        <fieldset>
-          <legend>Contact me</legend>
-
-          <div class="ContactMe-input">
-            <label htmlFor="name">Name:</label>
-            <input
-              id="name"
-              type="text"
-              value={name}
-              onChange={(event) => setName(event.target.value)}
-              placeholder="your name"
-            />
-          </div>
-
-          <div class="ContactMe-input">
-            <label htmlFor="email">Email:</label>
-            <input
-              id="email"
-              type="email"
-              value={email}
-              onChange={(event) => setEmail(event.target.value)}
-              placeholder="your email"
-            />
-          </div>
-
-          <label class="ContactMe-textarea-label" htmlFor="message">Reason for contact:</label>
-
-          <textarea
-            id="message"
-            value={message}
-            onChange={(event) => setMessage(event.target.value)}
-            placeholder="Your message here..."
-            rows="10"
-            cols="80"
-          ></textarea>
-
-          <button class="ContactMe-button" type="submit">Submit</button>
-        </fieldset>
-      </form>
+      <div class="form-container">
+        <form class="ContactMe-form" onSubmit={handleSubmit}>
+          <fieldset>
+            <legend>Contact me</legend>
+            <div class="ContactMe-input">
+              <label htmlFor="name">Name:</label>
+              <input
+                id="name"
+                type="text"
+                value={name}
+                onChange={(event) => setName(event.target.value)}
+                placeholder="your name"
+                required
+              />
+            </div>
+            <div class="ContactMe-input">
+              <label htmlFor="email">Email:</label>
+              <input
+                id="email"
+                type="email"
+                value={email}
+                onChange={(event) => setEmail(event.target.value)}
+                placeholder="your email"
+                required
+              />
+            </div>
+            <label class="ContactMe-textarea-label" htmlFor="message">Reason for contact:</label>
+            <textarea
+              id="message"
+              value={message}
+              onChange={(event) => setMessage(event.target.value)}
+              placeholder="Your message here..."
+              required
+            ></textarea>
+            <button class="ContactMe-button" type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </div>
     </div>
   );
 }

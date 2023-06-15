@@ -16,6 +16,7 @@
   grid-template-columns: auto 1fr;
   align-items: center;
   column-gap: 10px;
+  margin: 10px;
 }
 
 .ContactMe-input label {
@@ -31,12 +32,33 @@
 .ContactMe-textarea-label {
   display: block;
   width: 200px;
+  margin: 10px;
 }
 
 .ContactMe-form textarea {
-  height: auto;
+  margin: 0 10px 10px 10px;
+  resize: none;
+  height: 100px;
+  width: 600px;
+  max-width: 100%;
+  overflow-y: auto;
 }
 
 .ContactMe-button {
   padding: 10px;
+  margin: 10px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.form-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    max-width: 100%;
+    padding: 20px;
+  }
 }
