@@ -11,6 +11,14 @@ const GitLogo = `${process.env.PUBLIC_URL}/Git-Logo-2Color.svg`;
 function Skills() {
   return (
     <div class="section1">
+      <div class="Skills-discussion">
+        <p>
+          Here are some of my software developer skills. I'm also familiar with
+          Python and Matlab, some data science, AWS, and more. If the
+          need arises, I won't hesitate to learn something new on my own time to
+          accomplish what you need!
+        </p>
+      </div>
       <div class="Skills-container">
         <div class="Skills-card">
           <img
@@ -24,11 +32,22 @@ function Skills() {
           <p class="Skills-skill">HTML</p>
         </div>
         <div class="Skills-card">
-          <img class="Skills-logo" src={CSSLogo} width="64" height="64" title="CSS3" alt="CSS logo"></img>
+          <img
+            class="Skills-logo"
+            src={CSSLogo}
+            width="64"
+            height="64"
+            title="CSS3"
+            alt="CSS logo"
+          ></img>
           <p class="Skills-skill">CSS</p>
         </div>
         <div class="Skills-card">
-          <img class="Skills-logo" src={JavaScriptLogo} alt="JavaScript logo"></img>
+          <img
+            class="Skills-logo"
+            src={JavaScriptLogo}
+            alt="JavaScript logo"
+          ></img>
           <p class="Skills-skill">JavaScript</p>
         </div>
         <div class="Skills-card">
@@ -48,7 +67,12 @@ function Skills() {
           <p class="Skills-skill">MongoDB</p>
         </div>
         <div class="Skills-card">
-          <img class="Skills-logo" src={GitLogo} height="64" alt="Git logo"></img>
+          <img
+            class="Skills-logo"
+            src={GitLogo}
+            height="64"
+            alt="Git logo"
+          ></img>
           <p class="Skills-skill">Git/GitHub</p>
         </div>
       </div>
