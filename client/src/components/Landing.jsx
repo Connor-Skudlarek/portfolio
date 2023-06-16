@@ -1,39 +1,10 @@
 import "../styles/Landing.css";
-const profilePhoto = `${process.env.PUBLIC_URL}/logo192.png`;
-const linkedInLogo = `${process.env.PUBLIC_URL}/LinkedIn-Circle.png`;
-const githubLogo = `${process.env.PUBLIC_URL}/github-mark.png`;
-
+import Profile from "./Profile"
 function Landing() {
   return (
-    <div>
-      <div class="Landing-profile">
-        <div class="Landing-call-to-action">
-          <img
-            class="Landing-profile-photo"
-            src={profilePhoto}
-            alt="Connor Skudlarek, smiling in a collared blue shirt"
-          />
-          <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/connor-skudlarek/">
-                <img
-                  class="Landing-logo-image"
-                  src={linkedInLogo}
-                  alt="LinkedIn logo with link to Connor's LinkedIn"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/Connor-Skudlarek">
-                <img
-                  class="Landing-logo-image"
-                  src={githubLogo}
-                  alt="GitHub logo with link to Connor's GitHub"
-                />
-              </a>
-            </li>
-          </ul>
-        </div>
+    <div class="section0">
+      <div class="Landing-container">
+        <Profile />
         <div class="Landing-about-me">
           <h2 class="Landing-short-about-me">
             Hello there! My name is Connor Skudlarek, and I'm a full-stack web

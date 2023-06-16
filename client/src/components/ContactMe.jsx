@@ -29,7 +29,7 @@ function ContactMe() {
   };
 
   return (
-    <div class="form-container" id="ContactMe">
+    <div class="section1" id="ContactMe">
       <ToastContainer />
       <div class="form-container">
         <form class="ContactMe-form" onSubmit={handleSubmit}>

@@ -1,20 +1,10 @@
-.Landing-profile {
+.Landing-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-}
-
-.Landing-profile-photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  padding: 5px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25), 2px 2px 8px rgba(50, 80, 120, 0.7);
-  background-color: rgba(50, 80, 120, 0.7)
 }
 
 .Landing-about-me {
@@ -26,43 +16,12 @@
   width: 150px;
 }
 
-.Landing-call-to-action {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.Landing-call-to-action ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.Landing-call-to-action li {
-  margin-right: 20px;
-}
-
-.Landing-logo-image {
-  width: 32px;
-  height: auto;
-  padding: 2px;
-  margin-top: 20px;
-  border-radius: 50%;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 2px 2px 8px rgba(50, 80, 120, 0.7);
-}
-
 @media (min-width: 768px) {
-  .Landing-profile {
+  .Landing-container {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     padding: 40px;
-  }
-
-  .Landing-profile-photo {
-    margin-right: 20px;
   }
 
   .Landing-about-me {

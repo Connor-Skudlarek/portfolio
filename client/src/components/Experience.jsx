@@ -2,7 +2,7 @@ import "../styles/Experience.css";
 
 function Experience() {
   return (
-    <div>
+    <div class="section0">
       This is the Experience section.
       <p Style="margin: 200px;">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
@@ -38,7 +38,7 @@ function Experience() {
         eleifend ut. Proin porttitor tortor eu massa porta, eget tincidunt enim
         porta.
       </p>
-      <p Style="margin: 200px;">
+      <p Style="margin: 200px 200px 0px 200px;">
         Curabitur vel ullamcorper mauris, sit amet consequat libero. Sed arcu
         elit, porta in diam sit amet, rhoncus iaculis est. Duis euismod tellus
         et nisi pharetra porta a a elit. Nullam eget rutrum turpis. Nam aliquet
