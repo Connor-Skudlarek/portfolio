@@ -13,7 +13,11 @@ function Profile() {
       />
       <ul>
         <li>
-          <a href="https://www.linkedin.com/in/connor-skudlarek/">
+          <a
+            href="https://www.linkedin.com/in/connor-skudlarek/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               class="Profile-logo-image"
               src={linkedInLogo}
@@ -22,7 +26,11 @@ function Profile() {
           </a>
         </li>
         <li>
-          <a href="https://github.com/Connor-Skudlarek">
+          <a
+            href="https://github.com/Connor-Skudlarek"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               class="Profile-logo-image"
               src={githubLogo}

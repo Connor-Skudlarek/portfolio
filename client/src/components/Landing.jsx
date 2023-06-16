@@ -1,5 +1,5 @@
 import "../styles/Landing.css";
-import Profile from "./Profile"
+import Profile from "./Profile";
 function Landing() {
   return (
     <div class="section0">
@@ -13,14 +13,19 @@ function Landing() {
           </h2>
           <hr class="Landing-about-me-break" />
           <p class="Landing-long-about-me">
-            I graduated mechanical engineering with honors, have a background in
-            the semiconductor industry as a service engineer, experience in
-            agriculture, and can cook up a storm in a kitchen.
+            I have a B.S. in Mechanical Engineering from Oregon Tech, where I
+            graduated with honors. My background is diverse, and so is my
+            skills. My experience includes working in the semiconductor industry
+            as a service engineer, experience in agriculture, and I can cook up
+            a storm in a kitchen. I love chess, gaming with friends, and
+            learning Japanese.
             <br />
-            <br />
-            Whether it's front end, back end, or a bit of both—I can help you
-            take your ideas from paper to production.{" "}
-            <strong><a href="#ContactMe">Let's talk!</a></strong>
+            <br />I think my background makes me highly qualified to solve
+            whatever issues you have. Whether it's front end, back end, or a bit
+            of both—I can help you take your ideas from paper to production.{" "}
+            <strong>
+              <a href="#ContactMe">Let's talk!</a>
+            </strong>
           </p>
         </div>
       </div>

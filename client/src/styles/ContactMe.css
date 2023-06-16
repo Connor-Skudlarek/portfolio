@@ -3,13 +3,16 @@
   flex-direction: column;
   align-items: center;
   font-size: 1.5rem;
+  width: 70%;
+  padding: 5% 15%;
 }
 
 .ContactMe-form fieldset {
   display: flex;
   flex-direction: column;
   align-items: left;
-  margin: 10px;
+  margin: 15px;
+  width: auto;
 }
 
 .ContactMe-input {
@@ -39,9 +42,8 @@
 .ContactMe-form textarea {
   margin: 0 10px 10px 10px;
   resize: none;
-  height: 100px;
-  width: 600px;
-  max-width: 100%;
+  height: 200px;
+  width: 300px;
   overflow-y: auto;
 }
 
