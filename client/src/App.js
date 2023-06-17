@@ -4,6 +4,7 @@ import Landing from './components/Landing';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import ContactMe from './components/ContactMe';
+import Footer from './components/Footer';
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <Experience />
       <ContactMe />
+      <Footer />
     </div>
   );
 }
