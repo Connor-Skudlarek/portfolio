@@ -12,7 +12,7 @@ function ContactMe() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post("http://www.connorskudlarek.com/api/contact", {
+      const response = await axios.post("/api/contact", {
         name,
         email,
         message,
