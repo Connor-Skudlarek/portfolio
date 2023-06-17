@@ -13,8 +13,8 @@ function Skills() {
     <div class="section1">
       <div class="Skills-discussion">
         <p>
-          Here are some of my software developer skills. I'm also familiar with
-          Python and Matlab, some data science, AWS, and more. If the
+          These are some of my software developer skills. I'm also familiar with
+          Python and Matlab, some data science, AWS {"(which this site is hosted on)"}, and more. If the
           need arises, I won't hesitate to learn something new on my own time to
           accomplish what you need!
         </p>
