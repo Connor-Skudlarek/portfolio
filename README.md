@@ -1,5 +1,5 @@
 ### Portfolio
-This is the source code for my portfolio wesbite.
+This is the source code for my portfolio wesbite, which can be found at [connorskudlarek.com](http://www.connorskudlarek.com/)
 
 It uses an express backend to serve a React front end. Sounds like overkill for a portfolio? Probably. I considered using EJS views instead, or even plain vanilla HTML/CSS/JavaScript. Both would likely be more performant, though probably unnoticed for such a small application. But what's the fun in that?
 
