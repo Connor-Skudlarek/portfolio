@@ -1,7 +1,7 @@
 import "../styles/Profile.css";
-const profilePhoto = `${process.env.PUBLIC_URL}/logo192.png`;
-const linkedInLogo = `${process.env.PUBLIC_URL}/LinkedIn-Circle.png`;
-const githubLogo = `${process.env.PUBLIC_URL}/github-mark.png`;
+const profilePhoto = "/logo192.png";
+const linkedInLogo = "/LinkedIn-Circle.png";
+const githubLogo = "/github-mark.png";
 
 function Profile() {
   return (
