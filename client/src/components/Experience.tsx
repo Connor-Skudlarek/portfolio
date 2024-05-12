@@ -2,9 +2,9 @@ import "../styles/Experience.css";
 
 function Experience() {
   return (
-    <div class="section0">
+    <div className="section0">
       This is the Experience section.
-      <p Style="margin: 200px;">
+      <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
         quis ornare ante, sit amet pellentesque sapien. Suspendisse eu ex sit
         amet ante tincidunt dapibus. Nullam sit amet ultrices elit. Aenean
@@ -15,7 +15,7 @@ function Experience() {
         ante sed neque porttitor cursus. Aliquam sit amet nulla sit amet libero
         sollicitudin vestibulum eu non dui.
       </p>
-      <p Style="margin: 200px;">
+      <p>
         Praesent sit amet porttitor nibh, quisvenenatis ex. Suspendisse
         scelerisque pulvinar erat id mollis. Cras id elit neque. Donec tincidunt
         libero quis velit scelerisque maximus. Aliquam erat volutpat. Ut nec
@@ -25,7 +25,7 @@ function Experience() {
         lobortis felis quam, sit amet hendrerit velit lacinia ac. Suspendisse
         enim ipsum, euismod a nisi eu, bibendum pretium ipsum.
       </p>
-      <p Style="margin: 200px;">
+      <p>
         Aliquam erat volutpat. Morbi interdum finibus ligula, in vulputate diam
         rutrum sit amet. Aliquam in feugiat mauris. Sed sollicitudin risus sem,
         et convallis odio condimentum ac. Proin consectetur risus vel lacus
@@ -37,22 +37,6 @@ function Experience() {
         augue ac pharetra. Nunc ornare dignissim tortor, non mattis ante
         eleifend ut. Proin porttitor tortor eu massa porta, eget tincidunt enim
         porta.
-      </p>
-      <p Style="margin: 200px 200px 0px 200px;">
-        Curabitur vel ullamcorper mauris, sit amet consequat libero. Sed arcu
-        elit, porta in diam sit amet, rhoncus iaculis est. Duis euismod tellus
-        et nisi pharetra porta a a elit. Nullam eget rutrum turpis. Nam aliquet
-        blandit mollis. In hac habitasse platea dictumst. Aliquam viverra eget
-        lorem sed commodo. Vivamus maximus risus eget lorem rhoncus, sed
-        consectetur risus accumsan. Vivamus lacinia suscipit nunc nec
-        pellentesque. In mi erat, tristique sed blandit bibendum, vulputate quis
-        erat. Suspendisse pharetra nunc elit. Morbi egestas enim eget sapien
-        efficitur elementum. Duis volutpat, nisl eu dictum lacinia, orci velit
-        hendrerit mauris, at tempor libero velit quis libero. Nam nec egestas
-        urna. Sed eleifend erat vitae massa lobortis condimentum. Mauris vel est
-        auctor, luctus eros lacinia, aliquam purus. Nulla consectetur egestas
-        arcu, sit amet tincidunt nibh varius sed. Mauris quis lectus porta,
-        consectetur magna vel, sodales dui.
       </p>
     </div>
   );

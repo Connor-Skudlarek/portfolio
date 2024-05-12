@@ -1,5 +1,5 @@
 import "../styles/ContactMe.css";
-import React, { useState } from "react";
+import { useState } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -29,13 +29,13 @@ function ContactMe() {
   };
 
   return (
-    <div class="section1" id="ContactMe">
+    <div className="section1" id="ContactMe">
       <ToastContainer />
-      <div class="form-container">
-        <form class="ContactMe-form" onSubmit={handleSubmit}>
+      <div className="form-container">
+        <form className="ContactMe-form" onSubmit={handleSubmit}>
           <fieldset>
             <legend>Contact me</legend>
-            <div class="ContactMe-input">
+            <div className="ContactMe-input">
               <label htmlFor="name">Name:</label>
               <input
                 id="name"
@@ -46,7 +46,7 @@ function ContactMe() {
                 required
               />
             </div>
-            <div class="ContactMe-input">
+            <div className="ContactMe-input">
               <label htmlFor="email">Email:</label>
               <input
                 id="email"
@@ -57,7 +57,9 @@ function ContactMe() {
                 required
               />
             </div>
-            <label class="ContactMe-textarea-label" htmlFor="message">Reason for contact:</label>
+            <label className="ContactMe-textarea-label" htmlFor="message">
+              Reason for contact:
+            </label>
             <textarea
               id="message"
               value={message}
@@ -65,7 +67,9 @@ function ContactMe() {
               placeholder="Your message here..."
               required
             ></textarea>
-            <button class="ContactMe-button" type="submit">Submit</button>
+            <button className="ContactMe-button" type="submit">
+              Submit
+            </button>
           </fieldset>
         </form>
       </div>

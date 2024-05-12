@@ -1,13 +1,13 @@
-import './App.css';
+import "./App.css";
 // import Navbar from './components/Navbar';
-import Landing from './components/Landing';
-import Skills from './components/Skills';
+import Landing from "./components/Landing";
+import Skills from "./components/Skills";
 // import Experience from './components/Experience';
-import ContactMe from './components/ContactMe';
-import Footer from './components/Footer';
+import ContactMe from "./components/ContactMe";
+import Footer from "./components/Footer";
+import * as React from "react";
 
 function App() {
-  
   return (
     <div className="App">
       {/* <Navbar /> */}

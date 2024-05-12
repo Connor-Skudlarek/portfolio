@@ -5,9 +5,9 @@ const githubLogo = "/github-mark.png";
 
 function Profile() {
   return (
-    <div class="Profile-container">
+    <div className="Profile-container">
       <img
-        class="Profile-photo"
+        className="Profile-photo"
         src={profilePhoto}
         alt="Connor Skudlarek, smiling in a collared blue shirt"
       />
@@ -19,7 +19,7 @@ function Profile() {
             rel="noopener noreferrer"
           >
             <img
-              class="Profile-logo-image"
+              className="Profile-logo-image"
               src={linkedInLogo}
               alt="LinkedIn logo with link to Connor's LinkedIn"
             />
@@ -32,7 +32,7 @@ function Profile() {
             rel="noopener noreferrer"
           >
             <img
-              class="Profile-logo-image"
+              className="Profile-logo-image"
               src={githubLogo}
               alt="GitHub logo with link to Connor's GitHub"
             />

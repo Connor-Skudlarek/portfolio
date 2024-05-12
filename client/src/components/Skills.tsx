@@ -10,8 +10,8 @@ const GitLogo = "/Git-Logo-2Color.svg";
 
 function Skills() {
   return (
-    <div class="section1">
-      <div class="Skills-discussion">
+    <div className="section1">
+      <div className="Skills-discussion">
         <p>
           These are some of my software developer skills. I'm also familiar with
           Python and Matlab, some data science, AWS{" "}
@@ -20,61 +20,73 @@ function Skills() {
           what you need!
         </p>
       </div>
-      <div class="Skills-container">
-        <div class="Skills-card">
+      <div className="Skills-container">
+        <div className="Skills-card">
           <img
-            class="Skills-logo"
+            className="Skills-logo"
             src={HTMLLogo}
             width="64"
             height="64"
             title="HTML5"
             alt="HTML logo"
           ></img>
-          <p class="Skills-skill">HTML</p>
+          <p className="Skills-skill">HTML</p>
         </div>
-        <div class="Skills-card">
+        <div className="Skills-card">
           <img
-            class="Skills-logo"
+            className="Skills-logo"
             src={CSSLogo}
             width="64"
             height="64"
             title="CSS3"
             alt="CSS logo"
           ></img>
-          <p class="Skills-skill">CSS</p>
+          <p className="Skills-skill">CSS</p>
         </div>
-        <div class="Skills-card">
+        <div className="Skills-card">
           <img
-            class="Skills-logo"
+            className="Skills-logo"
             src={JavaScriptLogo}
             alt="JavaScript logo"
           ></img>
-          <p class="Skills-skill">JavaScript</p>
+          <p className="Skills-skill">JavaScript</p>
         </div>
-        <div class="Skills-card">
-          <img class="Skills-logo" src={NodeJSLogo} alt="NodeJS logo"></img>
-          <p class="Skills-skill">Node</p>
+        <div className="Skills-card">
+          <img className="Skills-logo" src={NodeJSLogo} alt="NodeJS logo"></img>
+          <p className="Skills-skill">Node</p>
         </div>
-        <div class="Skills-card">
-          <img class="Skills-logo" src={ExpressLogo} alt="ExpressJS logo"></img>
-          <p class="Skills-skill">Express</p>
-        </div>
-        <div class="Skills-card">
-          <img class="Skills-logo" src={ReactJSLogo} alt="ReactJS logo"></img>
-          <p class="Skills-skill">React</p>
-        </div>
-        <div class="Skills-card">
-          <img class="Skills-logo" src={MongoDBLogo} alt="MongoDB logo"></img>
-          <p class="Skills-skill">MongoDB</p>
-        </div>
-        <div class="Skills-card">
+        <div className="Skills-card">
           <img
-            class="Skills-logo"
+            className="Skills-logo"
+            src={ExpressLogo}
+            alt="ExpressJS logo"
+          ></img>
+          <p className="Skills-skill">Express</p>
+        </div>
+        <div className="Skills-card">
+          <img
+            className="Skills-logo"
+            src={ReactJSLogo}
+            alt="ReactJS logo"
+          ></img>
+          <p className="Skills-skill">React</p>
+        </div>
+        <div className="Skills-card">
+          <img
+            className="Skills-logo"
+            src={MongoDBLogo}
+            alt="MongoDB logo"
+          ></img>
+          <p className="Skills-skill">MongoDB</p>
+        </div>
+        <div className="Skills-card">
+          <img
+            className="Skills-logo"
             src={GitLogo}
             height="64"
             alt="Git logo"
           ></img>
-          <p class="Skills-skill">Git/GitHub</p>
+          <p className="Skills-skill">Git/GitHub</p>
         </div>
       </div>
     </div>

@@ -1,0 +1,14 @@
+{  
+    "compilerOptions": {    
+        "lib": ["dom", "dom.iterable", "ESNext"],    
+        "target": "ESNext",    
+        "types": ["vite/client"],
+        "isolatedModules": true,
+        "jsx": "react-jsx",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "paths": {
+            "rollup/parseAst": ["./node_modules/rollup/dist/parseAst"],
+        }
+    },
+ }
