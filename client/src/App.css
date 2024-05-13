@@ -26,3 +26,7 @@ body {
 .section1 {
   background-color: antiquewhite;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
