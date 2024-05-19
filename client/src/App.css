@@ -6,25 +6,10 @@ body {
     sans-serif;
   font-size: 1.2rem;
   color: rgb(1, 4, 35);
-
-  /* 
-    Play around with other styles...
-  background: rgb(238, 174, 202);
-  background: radial-gradient(
-    circle,
-    rgba(148, 187, 233, 0.7) 0%,
-    rgb(77, 2, 82, 0.2) 100%
-  );
-  background-attachment: fixed;
-  background-position: top; */
-}
-
-.section0 {
-  background-color: rgba(245, 245, 220, 0.5);
 }
 
 .section1 {
-  background-color: antiquewhite;
+  background-color: rgb(250, 235, 215);
 }
 
 @tailwind base;

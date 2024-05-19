@@ -5,10 +5,11 @@
         "types": ["vite/client"],
         "isolatedModules": true,
         "jsx": "react-jsx",
-        "moduleResolution": "node",
+        "moduleResolution": "bundler",
         "allowSyntheticDefaultImports": true,
+        "noEmit": true,
         "paths": {
             "rollup/parseAst": ["./node_modules/rollup/dist/parseAst"],
         }
     },
- }
+}
