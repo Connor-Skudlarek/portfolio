@@ -1,11 +1,7 @@
-import '../styles/Navbar.css'
+import "../styles/Navbar.css";
 
-function Navbar(){
-    return (
-        <div>
-            This is the Navbar section.
-        </div>
-    )
+function Navbar() {
+  return <div className="bg-themeColor2">This is the Navbar section.</div>;
 }
 
 export default Navbar;

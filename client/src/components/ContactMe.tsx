@@ -29,14 +29,22 @@ function ContactMe() {
   };
 
   return (
-    <div className="section1" id="ContactMe">
+    <div
+      className="from-themeColor2 to-themeColor1 bg-gradient-to-r from-70% via-transparent"
+      id="ContactMe"
+    >
       <ToastContainer />
-      <div className="form-container">
-        <form className="ContactMe-form" onSubmit={handleSubmit}>
-          <fieldset>
+      <div className="m-auto max-w-[100%]">
+        <form
+          className="flex w-[70%] flex-col items-center px-[15%] py-[5%] font-[1.5rem]"
+          onSubmit={handleSubmit}
+        >
+          <fieldset className="items-left m-[15px] flex w-auto flex-col">
             <legend>Contact me</legend>
-            <div className="ContactMe-input">
-              <label htmlFor="name">Name:</label>
+            <div className="m-[10px] flex flex-col items-center gap-[10px] md:flex-row">
+              <label htmlFor="name" className="w-[60px] text-left">
+                Name:
+              </label>
               <input
                 id="name"
                 type="text"
@@ -44,20 +52,24 @@ function ContactMe() {
                 onChange={(event) => setName(event.target.value)}
                 placeholder="your name"
                 required
+                className="w-[100%] max-w-[250px]"
               />
             </div>
-            <div className="ContactMe-input">
-              <label htmlFor="email">Email:</label>
+            <div className="m-[10px] flex flex-col items-center gap-[10px] md:flex-row">
+              <label htmlFor="email" className="w-[60px] text-left">
+                Email:
+              </label>
               <input
                 id="email"
                 type="email"
                 value={email}
                 onChange={(event) => setEmail(event.target.value)}
                 placeholder="your email"
+                className="w-[100%] max-w-[250px]"
                 required
               />
             </div>
-            <label className="ContactMe-textarea-label" htmlFor="message">
+            <label className="m-[10px] block w-[200px]" htmlFor="message">
               Reason for contact:
             </label>
             <textarea
@@ -65,9 +77,13 @@ function ContactMe() {
               value={message}
               onChange={(event) => setMessage(event.target.value)}
               placeholder="Your message here..."
+              className="m-[10px] mt-0 h-[200px] w-[300px] resize-none overflow-y-auto"
               required
             ></textarea>
-            <button className="ContactMe-button" type="submit">
+            <button
+              className="color-ivory-300 m-[10px] w-[100px] rounded-[5px] bg-stone-500 p-[10px]"
+              type="submit"
+            >
               Submit
             </button>
           </fieldset>

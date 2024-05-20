@@ -2,7 +2,7 @@ import "../styles/Footer.css";
 
 function Footer() {
   return (
-    <div className="Footer-container section1">
+    <div className="Footer-container bg-themeColor2">
       <p>Hosted on AWS—Copyright of Connor Skudlarek © 2023</p>
     </div>
   );

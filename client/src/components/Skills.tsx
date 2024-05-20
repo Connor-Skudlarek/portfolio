@@ -10,9 +10,9 @@ const GitLogo = "/Git-Logo-2Color.svg";
 
 function Skills() {
   return (
-    <div className="section1">
+    <div className="bg-[#faebd7]">
       <div className="Skills-discussion">
-        <p>
+        <p className="min-w-[300px]">
           These are some of my software developer skills. I'm also familiar with
           Python and Matlab, some data science, AWS{" "}
           {"(which this site is hosted on)"}, and more. If the need arises, I
