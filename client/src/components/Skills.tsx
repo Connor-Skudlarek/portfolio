@@ -1,4 +1,3 @@
-import "../styles/Skills.css";
 const HTMLLogo = "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png";
 const CSSLogo = "/icons8-css-logo-64.png";
 const JavaScriptLogo = "/JavaScript-logo.png";
@@ -10,83 +9,86 @@ const GitLogo = "/Git-Logo-2Color.svg";
 
 function Skills() {
   return (
-    <div className="bg-[#faebd7]">
-      <div className="Skills-discussion">
-        <p className="min-w-[300px]">
-          These are some of my software developer skills. I'm also familiar with
-          Python and Matlab, some data science, AWS{" "}
-          {"(which this site is hosted on)"}, and more. If the need arises, I
-          won't hesitate to learn something new on my own time to accomplish
-          what you need!
-        </p>
-      </div>
-      <div className="Skills-container">
-        <div className="Skills-card">
+    <div
+      id="Skills"
+      className="bg-gradient-to-tl from-[#ff8c002d] from-[1%] via-sky-300 via-90% to-[#0000ff2d] to-100%"
+    >
+      <h3 className="m-auto max-w-[80%] text-2xl">
+        These are some of my skills I use for software development.<br></br>
+        <br></br>I also am familiar with Vite and NextJS, and deploying to AWS
+        and Vercel.
+      </h3>
+      <div className="m-auto flex flex-wrap justify-center p-12">
+        <div className="shadow-card m-[1rem] w-fit rounded-[5px] bg-[#fff] p-[1rem] text-center">
           <img
-            className="Skills-logo"
+            className="mx-[20px] my-0 h-[64px] text-[3rem]"
             src={HTMLLogo}
             width="64"
             height="64"
             title="HTML5"
             alt="HTML logo"
           ></img>
-          <p className="Skills-skill">HTML</p>
+          <p className="m-[2px] text-[1.6rem]">HTML</p>
         </div>
-        <div className="Skills-card">
+        <div className="shadow-card m-[1rem] w-fit rounded-[5px] bg-[#fff] p-[1rem] text-center">
           <img
-            className="Skills-logo"
+            className="mx-[20px] my-0 h-[64px] text-[3rem]"
             src={CSSLogo}
             width="64"
             height="64"
             title="CSS3"
             alt="CSS logo"
           ></img>
-          <p className="Skills-skill">CSS</p>
+          <p className="m-[2px] text-[1.6rem]">CSS</p>
         </div>
-        <div className="Skills-card">
+        <div className="shadow-card m-[1rem] w-fit rounded-[5px] bg-[#fff] p-[1rem] text-center">
           <img
-            className="Skills-logo"
+            className="mx-[20px] my-0 h-[64px] text-[3rem]"
             src={JavaScriptLogo}
             alt="JavaScript logo"
           ></img>
-          <p className="Skills-skill">JavaScript</p>
+          <p className="m-[2px] text-[1.6rem]">JavaScript</p>
         </div>
-        <div className="Skills-card">
-          <img className="Skills-logo" src={NodeJSLogo} alt="NodeJS logo"></img>
-          <p className="Skills-skill">Node</p>
-        </div>
-        <div className="Skills-card">
+        <div className="shadow-card m-[1rem] w-fit rounded-[5px] bg-[#fff] p-[1rem] text-center">
           <img
-            className="Skills-logo"
+            className="mx-[20px] my-0 h-[64px] text-[3rem]"
+            src={NodeJSLogo}
+            alt="NodeJS logo"
+          ></img>
+          <p className="m-[2px] text-[1.6rem]">Node</p>
+        </div>
+        <div className="shadow-card m-[1rem] w-fit rounded-[5px] bg-[#fff] p-[1rem] text-center">
+          <img
+            className="mx-[20px] my-0 h-[64px] text-[3rem]"
             src={ExpressLogo}
             alt="ExpressJS logo"
           ></img>
-          <p className="Skills-skill">Express</p>
+          <p className="m-[2px] text-[1.6rem]">Express</p>
         </div>
-        <div className="Skills-card">
+        <div className="shadow-card m-[1rem] w-fit rounded-[5px] bg-[#fff] p-[1rem] text-center">
           <img
-            className="Skills-logo"
+            className="mx-[20px] my-0 h-[64px] text-[3rem]"
             src={ReactJSLogo}
             alt="ReactJS logo"
           ></img>
-          <p className="Skills-skill">React</p>
+          <p className="m-[2px] text-[1.6rem]">React</p>
         </div>
-        <div className="Skills-card">
+        <div className="shadow-card m-[1rem] w-fit rounded-[5px] bg-[#fff] p-[1rem] text-center">
           <img
-            className="Skills-logo"
+            className="mx-[20px] my-0 h-[64px] text-[3rem]"
             src={MongoDBLogo}
             alt="MongoDB logo"
           ></img>
-          <p className="Skills-skill">MongoDB</p>
+          <p className="m-[2px] text-[1.6rem]">MongoDB</p>
         </div>
-        <div className="Skills-card">
+        <div className="shadow-card m-[1rem] w-fit rounded-[5px] bg-[#fff] p-[1rem] text-center">
           <img
-            className="Skills-logo"
+            className="mx-[20px] my-0 h-[64px] text-[3rem]"
             src={GitLogo}
             height="64"
             alt="Git logo"
           ></img>
-          <p className="Skills-skill">Git/GitHub</p>
+          <p className="m-[2px] text-[1.6rem]">Git/GitHub</p>
         </div>
       </div>
     </div>

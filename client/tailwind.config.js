@@ -12,6 +12,7 @@ module.exports = {
         profile2: "2px 2px 8px rgba(50, 80, 120, 0.7)",
         logo1: "0px 1px 4px rgba(0, 0, 0, 0.25)",
         logo2: "2px 2px 8px rgba(50, 80, 120, 0.7)",
+        card: "2px 2px 10px rgba(0, 0, 0, 0.3)",
       },
     },
   },

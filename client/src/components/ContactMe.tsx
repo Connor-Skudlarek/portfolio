@@ -1,4 +1,3 @@
-import "../styles/ContactMe.css";
 import { useState } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
@@ -30,7 +29,8 @@ function ContactMe() {
 
   return (
     <div
-      className="from-themeColor2 to-themeColor1 bg-gradient-to-r from-70% via-transparent"
+      // className="from-themeColor2 to-themeColor1 bg-gradient-from-t bg-gradient-to-b from-70% via-transparent"
+      className="bg-gradient-to-tl from-[#ff8c002d] from-[1%] via-sky-300 via-90% to-[#0000ff2d] to-100%"
       id="ContactMe"
     >
       <ToastContainer />
@@ -81,7 +81,7 @@ function ContactMe() {
               required
             ></textarea>
             <button
-              className="color-ivory-300 m-[10px] w-[100px] rounded-[5px] bg-stone-500 p-[10px]"
+              className="m-[10px] w-[100px] rounded-[5px] bg-[#ff8c00dd] p-[10px] text-2xl text-[#0000ff] shadow-md hover:bg-[#fff] hover:text-stone-800"
               type="submit"
             >
               Submit
