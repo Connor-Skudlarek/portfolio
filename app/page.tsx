@@ -13,8 +13,8 @@ export default function Page() {
       <div className="container mx-auto pt-14">
         <Hero />
         <AboutMe />
-        <Skills />
         <Projects />
+        <Skills />
         <ContactMe />
         <Footer />
       </div>
